@@ -17,3 +17,12 @@ ALTER table foodDelivery
 drop COLUMN 
 Delivery_location_latitude, Restaurant_latitude, Delivery_location_longitude,Restaurant_longitude, Time_Order_picked;
 
+
+create TABLE AgeDeliveryCount ( ages VARCHAR(20), delivery_count int);
+select * from AgeDeliveryCount;
+
+create TABLE totalTimeAndDistance ( city VARCHAR(20),type_of_vehicle VARCHAR(20), time_taken_min float, delivereddistance float);
+select * from totalTimeAndDistance;
+
+create TABLE totalVehicleCount (city VARCHAR(20),type_of_vehicle VARCHAR(20), cnt int);
+select * from totalVehicleCount;
