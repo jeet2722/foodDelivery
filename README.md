@@ -6,7 +6,7 @@ Connected the local server with python environment and Imported the table from t
 Operations performed including data cleaning, wrangling and feature engineering.
 Made sub-tables and uploaded those tables into the database.
 Connected Tableau with the server and fetched the database.
+Performed data visualizations in tableau.
 
-In jupyternotebook ...
-Then a model is created and the data is fitted..
+-> In the jupyternotebook,dataset is splitted into test and train datasets, than a regressor model is trained with the dataset.
 And its accuracy is calculated
